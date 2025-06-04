@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Damas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo de Damas</h1>
+    <div id="turn-indicator">
+        <span id="current-turn">Vez das Peças Vermelhas</span>
+    </div>
+    <div id="controls">
+        <button onclick="restartGame()">Reiniciar</button>
+        <button onclick="toggleAI()">Jogar Contra IA</button>
+    </div>
+    <canvas id="board" width="640" height="640"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
